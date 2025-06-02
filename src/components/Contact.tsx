@@ -65,12 +65,12 @@ export const Contact = () => {
                 <div>
                   <div className="font-semibold text-slate-800">GitHub</div>
                   <a 
-                    href="https://github.com/diyasanthosh" 
+                    href="https://github.com/DiyaSanthosh77" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:text-blue-700"
                   >
-                    github.com/diyasanthosh
+                    github.com/DiyaSanthosh77
                   </a>
                 </div>
               </div>

@@ -43,7 +43,7 @@ export const Hero = () => {
           {/* Social Links */}
           <div className="flex justify-center space-x-6 mb-12">
             <a 
-              href="https://github.com/diyasanthosh" 
+              href="https://github.com/DiyaSanthosh77" 
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 text-slate-600 hover:text-blue-600"
