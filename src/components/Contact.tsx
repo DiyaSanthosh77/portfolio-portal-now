@@ -54,7 +54,7 @@ export const Contact = () => {
                 </div>
                 <div>
                   <div className="font-semibold text-slate-800">Email</div>
-                  <div className="text-slate-600">diyasanthosh@example.com</div>
+                  <div className="text-slate-600">diyasanthoshcs@gmail.com</div>
                 </div>
               </div>
               
@@ -82,7 +82,7 @@ export const Contact = () => {
                 <div>
                   <div className="font-semibold text-slate-800">LinkedIn</div>
                   <a 
-                    href="https://linkedin.com/in/diyasanthosh" 
+                    href="https://www.linkedin.com/in/diyasanthosh/" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:text-blue-700"

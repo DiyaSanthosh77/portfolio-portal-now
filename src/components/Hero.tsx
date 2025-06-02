@@ -51,7 +51,7 @@ export const Hero = () => {
               <Github size={24} />
             </a>
             <a 
-              href="https://linkedin.com/in/diyasanthosh" 
+              href="https://www.linkedin.com/in/diyasanthosh/" 
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 text-slate-600 hover:text-blue-600"
@@ -59,7 +59,7 @@ export const Hero = () => {
               <Linkedin size={24} />
             </a>
             <a 
-              href="mailto:diyasanthosh@example.com" 
+              href="mailto:diyasanthoshcs@gmail.com" 
               className="p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 text-slate-600 hover:text-blue-600"
             >
               <Mail size={24} />
