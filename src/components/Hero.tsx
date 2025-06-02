@@ -17,36 +17,49 @@ export const Hero = () => {
       
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="animate-fade-in">
+          {/* Profile Photo */}
+          <div className="mb-8 flex justify-center">
+            <img 
+              src="/lovable-uploads/760e4861-0e3b-4deb-bb4d-ac634cc51bc5.png"
+              alt="Diya Santhosh"
+              className="w-48 h-48 rounded-full object-cover shadow-2xl border-4 border-white"
+            />
+          </div>
+          
           <h1 className="text-5xl md:text-7xl font-bold text-slate-800 mb-6 leading-tight">
             Hi, I'm{' '}
             <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Alex Johnson
+              Diya Santhosh
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-slate-600 mb-8 max-w-3xl mx-auto">
-            Creative Developer & Designer crafting beautiful digital experiences
+            Aspiring Full Stack Developer passionate about creating innovative solutions
           </p>
           <p className="text-lg text-slate-500 mb-12 max-w-2xl mx-auto">
-            I specialize in creating stunning websites and applications that combine 
-            beautiful design with powerful functionality.
+            Computer Science graduate currently pursuing Full Stack Development (Java). 
+            Ready to bring fresh perspectives to exciting projects.
           </p>
           
           {/* Social Links */}
           <div className="flex justify-center space-x-6 mb-12">
             <a 
-              href="#" 
+              href="https://github.com/diyasanthosh" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 text-slate-600 hover:text-blue-600"
             >
               <Github size={24} />
             </a>
             <a 
-              href="#" 
+              href="https://linkedin.com/in/diyasanthosh" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 text-slate-600 hover:text-blue-600"
             >
               <Linkedin size={24} />
             </a>
             <a 
-              href="#" 
+              href="mailto:diyasanthosh@example.com" 
               className="p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 text-slate-600 hover:text-blue-600"
             >
               <Mail size={24} />
@@ -56,10 +69,10 @@ export const Hero = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
             <button 
-              onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
               className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-200 shadow-lg hover:shadow-xl"
             >
-              View My Work
+              Learn More About Me
             </button>
             <button 
               onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}

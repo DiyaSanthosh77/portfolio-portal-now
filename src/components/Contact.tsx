@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Github, Linkedin } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 
 export const Contact = () => {
@@ -35,8 +35,8 @@ export const Contact = () => {
             Get In Touch
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Ready to start your next project? Let's work together to create 
-            something amazing.
+            I'm excited to connect with potential employers, collaborators, and 
+            fellow developers. Let's discuss opportunities and projects!
           </p>
         </div>
 
@@ -54,36 +54,51 @@ export const Contact = () => {
                 </div>
                 <div>
                   <div className="font-semibold text-slate-800">Email</div>
-                  <div className="text-slate-600">alex@example.com</div>
+                  <div className="text-slate-600">diyasanthosh@example.com</div>
                 </div>
               </div>
               
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
-                  <Phone className="text-blue-600" size={24} />
+                  <Github className="text-blue-600" size={24} />
                 </div>
                 <div>
-                  <div className="font-semibold text-slate-800">Phone</div>
-                  <div className="text-slate-600">+1 (555) 123-4567</div>
+                  <div className="font-semibold text-slate-800">GitHub</div>
+                  <a 
+                    href="https://github.com/diyasanthosh" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-700"
+                  >
+                    github.com/diyasanthosh
+                  </a>
                 </div>
               </div>
               
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
-                  <MapPin className="text-blue-600" size={24} />
+                  <Linkedin className="text-blue-600" size={24} />
                 </div>
                 <div>
-                  <div className="font-semibold text-slate-800">Location</div>
-                  <div className="text-slate-600">San Francisco, CA</div>
+                  <div className="font-semibold text-slate-800">LinkedIn</div>
+                  <a 
+                    href="https://linkedin.com/in/diyasanthosh" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-700"
+                  >
+                    linkedin.com/in/diyasanthosh
+                  </a>
                 </div>
               </div>
             </div>
 
             <div className="mt-8 p-6 bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl">
-              <h4 className="font-semibold text-slate-800 mb-2">Available for freelance work</h4>
+              <h4 className="font-semibold text-slate-800 mb-2">Open to Opportunities</h4>
               <p className="text-slate-600">
-                I'm currently available for new projects and collaborations. 
-                Let's discuss how I can help bring your ideas to life.
+                I'm actively seeking entry-level positions and internship opportunities 
+                in Full Stack Development. I'm eager to contribute to innovative projects 
+                and grow alongside experienced teams.
               </p>
             </div>
           </div>
@@ -135,7 +150,7 @@ export const Contact = () => {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors duration-200 resize-none"
-                  placeholder="Tell me about your project..."
+                  placeholder="Tell me about opportunities, projects, or just say hello..."
                 />
               </div>
               
