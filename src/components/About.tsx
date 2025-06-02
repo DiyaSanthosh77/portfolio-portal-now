@@ -4,10 +4,10 @@ import { Code, Palette, Zap, Heart, GraduationCap, Calendar } from 'lucide-react
 
 export const About = () => {
   const skills = [
-    { icon: Code, title: "Development", description: "Learning Full Stack Development with Java and modern web technologies" },
-    { icon: GraduationCap, title: "Education", description: "B.Tech in Computer Science and Engineering from College of Engineering Attingal" },
-    { icon: Zap, title: "Enthusiasm", description: "Passionate about learning new technologies and building innovative solutions" },
-    { icon: Heart, title: "Dedication", description: "Committed to continuous learning and delivering quality work" }
+    { icon: Code, title: "Development", description: "Expanding skills in Full Stack Development with Java and modern web technologies" },
+    { icon: GraduationCap, title: "Education", description: "B.Tech in Computer Science and Engineering from College of Engineering Attingal (2025)" },
+    { icon: Zap, title: "Innovation", description: "Passionate about building impactful web applications and innovative solutions" },
+    { icon: Heart, title: "Dedication", description: "Committed to continuous learning and creating meaningful digital solutions" }
   ];
 
   return (
@@ -18,9 +18,10 @@ export const About = () => {
             About Me
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            I'm a 22-year-old Computer Science graduate with a passion for technology 
-            and a drive to create meaningful digital solutions. Currently expanding my 
-            skills in Full Stack Development.
+            I'm a 22-year-old Computer Science graduate passionate about technology 
+            and driven to create meaningful digital solutions. Currently, I'm expanding 
+            my skills in Full Stack Development to build impactful web applications and 
+            grow as a developer.
           </p>
         </div>
 
@@ -37,24 +38,25 @@ export const About = () => {
               My Journey
             </h3>
             <p className="text-slate-600 mb-6 leading-relaxed">
-              Born on March 24, 2003, I've always been fascinated by technology and its 
-              potential to solve real-world problems. After completing my B.Tech in 
-              Computer Science and Engineering from College of Engineering Attingal, 
-              I'm now pursuing Full Stack Development with Java.
+              Born on March 24, 2003, I have always been fascinated by technology and its 
+              potential to solve real-world problems. I completed my B.Tech in Computer 
+              Science and Engineering from the College of Engineering Attingal in 2025. 
+              Currently, I am pursuing Full Stack Development with Java to expand my skills 
+              and knowledge.
             </p>
             <p className="text-slate-600 mb-8 leading-relaxed">
-              I'm eager to apply my academic knowledge to practical projects and contribute 
+              I am eager to apply my academic background to practical projects and contribute 
               to innovative solutions. My goal is to become a skilled full-stack developer 
-              who can build end-to-end applications that make a difference.
+              capable of building end-to-end applications that make a positive impact.
             </p>
             <div className="space-y-4">
               <div className="flex items-center">
                 <div className="w-32 text-slate-500 font-medium">Education:</div>
-                <div className="text-slate-700">B.Tech CSE, College of Engineering Attingal</div>
+                <div className="text-slate-700">B.Tech CSE, College of Engineering Attingal (2025)</div>
               </div>
               <div className="flex items-center">
-                <div className="w-32 text-slate-500 font-medium">Current:</div>
-                <div className="text-slate-700">Full Stack Development (Java)</div>
+                <div className="w-32 text-slate-500 font-medium">Current Focus:</div>
+                <div className="text-slate-700">Full Stack Development with Java</div>
               </div>
               <div className="flex items-center">
                 <div className="w-32 text-slate-500 font-medium">Age:</div>
